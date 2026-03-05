@@ -1,5 +1,7 @@
 package Factory.Method.Pattern;
 
-public interface Candy {
-	 void create();
+public abstract class Candy {
+
+    public abstract void create();
+
 }

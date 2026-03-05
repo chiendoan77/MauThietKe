@@ -1,6 +1,6 @@
 package Factory.Method.Pattern;
 
-public class ChocolateCandy implements Candy {
+public class ChocolateCandy extends  Candy {
 
     @Override
     public void create() {
