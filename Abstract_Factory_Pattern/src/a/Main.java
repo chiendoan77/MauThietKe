@@ -1,0 +1,15 @@
+package a;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BikeBuilder a = new BikeBuilder();
+		a.build(new MountainBikeFactory());
+		a.showResult();
+		
+		a.build(new RoadBikeFactory());
+		a.showResult();
+	}
+
+}
